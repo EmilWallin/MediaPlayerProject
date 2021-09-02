@@ -1,0 +1,36 @@
+﻿<Window x:Class="EmilWallin_Assignment7.Views.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmilWallin_Assignment7.Views"
+        mc:Ignorable="d"
+        Title="Help" Height="526" Width="568">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel>
+                <Label Content="Emil Wallins Media Manager Info:" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center"/>
+                <Separator/>
+                <Label Content="General Buttons:" FontSize="16" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                <Label Content="Clear Selection: Clear selection made in the list of files." FontSize="14"/>
+                <Label Content="Remove File(s): Remove files from the list of files." FontSize="14"/>
+                <Label Content="Media Manager Window:" FontSize="16" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                <Label Content="Add Files: Choose files to be added to the media manager." FontSize="14"/>
+                <Label Content="Add Folder: Choose folder with files to be added to the media manager." FontSize="14"/>
+                <Label Content="New Playlist: Create a new playlist (includes files marked in Media Manager)." FontSize="14"/>
+                <Label Content="Open Playlist: Open an existing playlist from file (.playlist-file)." FontSize="14"/>
+                <Label Content="DRAG FILES: Drag the selected files and drop them into a playlist." FontSize="14"/>
+                <Label Content="Playlist Window:" FontSize="16" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                <Label Content="PLAY: Plays the playlist in the Media Player." FontSize="14"/>
+                <Label Content="Media Player &amp; Video Player Window:" FontSize="16" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+                <Label Content="Play/Pause: Toggle play/pause for the current media." FontSize="14"/>
+                <Label Content="&lt;&lt; and >>: Play previous/next media." FontSize="14"/>
+                <Label Content="Double Click Media: Play clicked media instantly." FontSize="14"/>
+                <Label Content="Shuffle: Randomizes next media played." FontSize="14"/>
+                <Label Content="Volume Slider: Control the volume level of the media." FontSize="14"/>
+            </StackPanel>
+
+
+        </ScrollViewer>
+    </Grid>
+</Window>
